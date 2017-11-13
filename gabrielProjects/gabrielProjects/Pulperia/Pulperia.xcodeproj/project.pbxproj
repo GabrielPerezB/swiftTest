@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1EDA371D64E8F80009FA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA361D64E8F80009FA99 /* AppDelegate.swift */; };
+		DB1EDA3C1D64E8F80009FA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1EDA3A1D64E8F80009FA99 /* Main.storyboard */; };
+		DB1EDA3E1D64E8F80009FA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1EDA3D1D64E8F80009FA99 /* Assets.xcassets */; };
+		DB1EDA411D64E8F80009FA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1EDA3F1D64E8F80009FA99 /* LaunchScreen.storyboard */; };
+		DB1EDA4C1D64E8F80009FA99 /* PulperiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA4B1D64E8F80009FA99 /* PulperiaTests.swift */; };
+		DB1EDA571D64E8F80009FA99 /* PulperiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA561D64E8F80009FA99 /* PulperiaUITests.swift */; };
+		DB1EDA651D64ECD70009FA99 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA641D64ECD70009FA99 /* Producto.swift */; };
+		DB1EDA671D64F05B0009FA99 /* ListaProductosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA661D64F05B0009FA99 /* ListaProductosTableViewController.swift */; };
+		DB1EDA6D1D6515720009FA99 /* AgregarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1EDA6C1D6515720009FA99 /* AgregarProductoViewController.swift */; };
+		DB1EDA751D65171A0009FA99 /* save1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1EDA731D65171A0009FA99 /* save1.png */; };
+		DB1EDA761D65171A0009FA99 /* cancel1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1EDA741D65171A0009FA99 /* cancel1.png */; };
+		DBE80A591D7770F500D7AEA5 /* MostrarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE80A581D7770F500D7AEA5 /* MostrarProductoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1EDA481D64E8F80009FA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1EDA2B1D64E8F80009FA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1EDA321D64E8F80009FA99;
+			remoteInfo = Pulperia;
+		};
+		DB1EDA531D64E8F80009FA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1EDA2B1D64E8F80009FA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1EDA321D64E8F80009FA99;
+			remoteInfo = Pulperia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1EDA331D64E8F80009FA99 /* Pulperia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulperia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1EDA361D64E8F80009FA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1EDA3B1D64E8F80009FA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1EDA3D1D64E8F80009FA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1EDA401D64E8F80009FA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1EDA421D64E8F80009FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1EDA471D64E8F80009FA99 /* PulperiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulperiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1EDA4B1D64E8F80009FA99 /* PulperiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulperiaTests.swift; sourceTree = "<group>"; };
+		DB1EDA4D1D64E8F80009FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1EDA521D64E8F80009FA99 /* PulperiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulperiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1EDA561D64E8F80009FA99 /* PulperiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulperiaUITests.swift; sourceTree = "<group>"; };
+		DB1EDA581D64E8F80009FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1EDA641D64ECD70009FA99 /* Producto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		DB1EDA661D64F05B0009FA99 /* ListaProductosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProductosTableViewController.swift; sourceTree = "<group>"; };
+		DB1EDA6C1D6515720009FA99 /* AgregarProductoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarProductoViewController.swift; sourceTree = "<group>"; };
+		DB1EDA731D65171A0009FA99 /* save1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save1.png; sourceTree = "<group>"; };
+		DB1EDA741D65171A0009FA99 /* cancel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel1.png; sourceTree = "<group>"; };
+		DBE80A581D7770F500D7AEA5 /* MostrarProductoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostrarProductoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1EDA301D64E8F80009FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA441D64E8F80009FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA4F1D64E8F80009FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1EDA2A1D64E8F80009FA99 = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA351D64E8F80009FA99 /* Pulperia */,
+				DB1EDA4A1D64E8F80009FA99 /* PulperiaTests */,
+				DB1EDA551D64E8F80009FA99 /* PulperiaUITests */,
+				DB1EDA341D64E8F80009FA99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1EDA341D64E8F80009FA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA331D64E8F80009FA99 /* Pulperia.app */,
+				DB1EDA471D64E8F80009FA99 /* PulperiaTests.xctest */,
+				DB1EDA521D64E8F80009FA99 /* PulperiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1EDA351D64E8F80009FA99 /* Pulperia */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA6E1D6515E60009FA99 /* images */,
+				DB1EDA361D64E8F80009FA99 /* AppDelegate.swift */,
+				DB1EDA3A1D64E8F80009FA99 /* Main.storyboard */,
+				DB1EDA3D1D64E8F80009FA99 /* Assets.xcassets */,
+				DB1EDA3F1D64E8F80009FA99 /* LaunchScreen.storyboard */,
+				DB1EDA421D64E8F80009FA99 /* Info.plist */,
+				DB1EDA641D64ECD70009FA99 /* Producto.swift */,
+				DB1EDA661D64F05B0009FA99 /* ListaProductosTableViewController.swift */,
+				DB1EDA6C1D6515720009FA99 /* AgregarProductoViewController.swift */,
+				DBE80A581D7770F500D7AEA5 /* MostrarProductoViewController.swift */,
+			);
+			path = Pulperia;
+			sourceTree = "<group>";
+		};
+		DB1EDA4A1D64E8F80009FA99 /* PulperiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA4B1D64E8F80009FA99 /* PulperiaTests.swift */,
+				DB1EDA4D1D64E8F80009FA99 /* Info.plist */,
+			);
+			path = PulperiaTests;
+			sourceTree = "<group>";
+		};
+		DB1EDA551D64E8F80009FA99 /* PulperiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA561D64E8F80009FA99 /* PulperiaUITests.swift */,
+				DB1EDA581D64E8F80009FA99 /* Info.plist */,
+			);
+			path = PulperiaUITests;
+			sourceTree = "<group>";
+		};
+		DB1EDA6E1D6515E60009FA99 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EDA731D65171A0009FA99 /* save1.png */,
+				DB1EDA741D65171A0009FA99 /* cancel1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1EDA321D64E8F80009FA99 /* Pulperia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1EDA5B1D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "Pulperia" */;
+			buildPhases = (
+				DB1EDA2F1D64E8F80009FA99 /* Sources */,
+				DB1EDA301D64E8F80009FA99 /* Frameworks */,
+				DB1EDA311D64E8F80009FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulperia;
+			productName = Pulperia;
+			productReference = DB1EDA331D64E8F80009FA99 /* Pulperia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1EDA461D64E8F80009FA99 /* PulperiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1EDA5E1D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "PulperiaTests" */;
+			buildPhases = (
+				DB1EDA431D64E8F80009FA99 /* Sources */,
+				DB1EDA441D64E8F80009FA99 /* Frameworks */,
+				DB1EDA451D64E8F80009FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1EDA491D64E8F80009FA99 /* PBXTargetDependency */,
+			);
+			name = PulperiaTests;
+			productName = PulperiaTests;
+			productReference = DB1EDA471D64E8F80009FA99 /* PulperiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1EDA511D64E8F80009FA99 /* PulperiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1EDA611D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "PulperiaUITests" */;
+			buildPhases = (
+				DB1EDA4E1D64E8F80009FA99 /* Sources */,
+				DB1EDA4F1D64E8F80009FA99 /* Frameworks */,
+				DB1EDA501D64E8F80009FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1EDA541D64E8F80009FA99 /* PBXTargetDependency */,
+			);
+			name = PulperiaUITests;
+			productName = PulperiaUITests;
+			productReference = DB1EDA521D64E8F80009FA99 /* PulperiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1EDA2B1D64E8F80009FA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tecnologico de Costa Rica";
+				TargetAttributes = {
+					DB1EDA321D64E8F80009FA99 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+					DB1EDA461D64E8F80009FA99 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = DB1EDA321D64E8F80009FA99;
+					};
+					DB1EDA511D64E8F80009FA99 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = DB1EDA321D64E8F80009FA99;
+					};
+				};
+			};
+			buildConfigurationList = DB1EDA2E1D64E8F80009FA99 /* Build configuration list for PBXProject "Pulperia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1EDA2A1D64E8F80009FA99;
+			productRefGroup = DB1EDA341D64E8F80009FA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1EDA321D64E8F80009FA99 /* Pulperia */,
+				DB1EDA461D64E8F80009FA99 /* PulperiaTests */,
+				DB1EDA511D64E8F80009FA99 /* PulperiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1EDA311D64E8F80009FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1EDA751D65171A0009FA99 /* save1.png in Resources */,
+				DB1EDA761D65171A0009FA99 /* cancel1.png in Resources */,
+				DB1EDA411D64E8F80009FA99 /* LaunchScreen.storyboard in Resources */,
+				DB1EDA3E1D64E8F80009FA99 /* Assets.xcassets in Resources */,
+				DB1EDA3C1D64E8F80009FA99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA451D64E8F80009FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA501D64E8F80009FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1EDA2F1D64E8F80009FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1EDA371D64E8F80009FA99 /* AppDelegate.swift in Sources */,
+				DB1EDA671D64F05B0009FA99 /* ListaProductosTableViewController.swift in Sources */,
+				DB1EDA6D1D6515720009FA99 /* AgregarProductoViewController.swift in Sources */,
+				DBE80A591D7770F500D7AEA5 /* MostrarProductoViewController.swift in Sources */,
+				DB1EDA651D64ECD70009FA99 /* Producto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA431D64E8F80009FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1EDA4C1D64E8F80009FA99 /* PulperiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1EDA4E1D64E8F80009FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1EDA571D64E8F80009FA99 /* PulperiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1EDA491D64E8F80009FA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1EDA321D64E8F80009FA99 /* Pulperia */;
+			targetProxy = DB1EDA481D64E8F80009FA99 /* PBXContainerItemProxy */;
+		};
+		DB1EDA541D64E8F80009FA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1EDA321D64E8F80009FA99 /* Pulperia */;
+			targetProxy = DB1EDA531D64E8F80009FA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1EDA3A1D64E8F80009FA99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1EDA3B1D64E8F80009FA99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1EDA3F1D64E8F80009FA99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1EDA401D64E8F80009FA99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1EDA591D64E8F80009FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1EDA5A1D64E8F80009FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1EDA5C1D64E8F80009FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pulperia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.Pulperia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB1EDA5D1D64E8F80009FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pulperia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.Pulperia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB1EDA5F1D64E8F80009FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulperiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulperia.app/Pulperia";
+			};
+			name = Debug;
+		};
+		DB1EDA601D64E8F80009FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulperiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulperia.app/Pulperia";
+			};
+			name = Release;
+		};
+		DB1EDA621D64E8F80009FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulperiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pulperia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB1EDA631D64E8F80009FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulperiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pulperia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1EDA2E1D64E8F80009FA99 /* Build configuration list for PBXProject "Pulperia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1EDA591D64E8F80009FA99 /* Debug */,
+				DB1EDA5A1D64E8F80009FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1EDA5B1D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "Pulperia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1EDA5C1D64E8F80009FA99 /* Debug */,
+				DB1EDA5D1D64E8F80009FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1EDA5E1D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "PulperiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1EDA5F1D64E8F80009FA99 /* Debug */,
+				DB1EDA601D64E8F80009FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1EDA611D64E8F80009FA99 /* Build configuration list for PBXNativeTarget "PulperiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1EDA621D64E8F80009FA99 /* Debug */,
+				DB1EDA631D64E8F80009FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1EDA2B1D64E8F80009FA99 /* Project object */;
+}

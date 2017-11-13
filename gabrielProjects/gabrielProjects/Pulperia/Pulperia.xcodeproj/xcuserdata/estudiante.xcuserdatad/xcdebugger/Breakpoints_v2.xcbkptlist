@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pulperia/AgregarProductoViewController.swift"
+            timestampString = "493764635.184806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.__deallocating_deinit"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764635.229567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.init (Pulperia.AgregarProductoViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Pulperia.AgregarProductoViewController"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764635.231287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.init (Pulperia.AgregarProductoViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Pulperia.AgregarProductoViewController&gt;"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764635.23152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pulperia/AgregarProductoViewController.swift"
+            timestampString = "493764636.409844"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.__deallocating_deinit"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764636.411558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.init (Pulperia.AgregarProductoViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Pulperia.AgregarProductoViewController"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764636.411777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pulperia.AgregarProductoViewController.init (Pulperia.AgregarProductoViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Pulperia.AgregarProductoViewController&gt;"
+                  moduleName = "Pulperia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estudiante/Desktop/gabrielProjects/Pulperia/Pulperia/AgregarProductoViewController.swift"
+                  timestampString = "493764636.412013"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pulperia/AgregarProductoViewController.swift"
+            timestampString = "494365488.621494"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pulperia/AgregarProductoViewController.swift"
+            timestampString = "494365488.621494"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "guardarProducto(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
